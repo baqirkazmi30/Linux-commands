@@ -2,8 +2,21 @@
 ### :diamond_shape_with_a_dot_inside: <a name="Linux Commands">Linux Commands</a>
 
 - <b>tcpdump:</b> it is used to capture tcp/ip packets that transfered or received over a network on a specific interface.
+- <b>Examples</b> 
+   tcpdump -c 5 -i ens3, capture 5 packets on interface ens3
+   tcpdump -D, Display list of available interfaces on system.
+   tcpdump -i ens3 tcp, only capture the tcp packets on interface ens3.
+
 - <b>man:</b>it is used to retrive information in manual & display it as a text output on your screen.
+- <b>Examples</b>
+   man ifconfig, it will display manual of 'iconfig' command on screen.
+   man tcpdump , it will display manual of 'tcpdump' command on screen.
+
 - <b>Zip:</b>it is used to compress the files to reduce the size & also used as file package utility.
+- <b>Examples</b>
+   zip myfile1.zip myfile.txt, it will create .zip file of myfile.txt file.
+   zip -r newfolder.zip myfolder/, it will create .zip file of myfolder.
+
 - <b>dpkg:</b>it is main package management program in debian & debian based system.it is used to install,build,remove & manage packages.
 - <b>Apt-get:</b>it is command line tool for working with APT software packages.
 - <b>Scp:</b>it allows files to be copied to,from or between different hosts.
