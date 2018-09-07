@@ -33,4 +33,4 @@
 - <b>mv:</b>it is used to move files from one directory to another.
 - <b>cp:</b>it is used to copy files from one directory to another.
 - <b>rm:</b>it is used to remove files & directories.
--<b>mkdir:</b>it is used to create new directory.an:it is used to retrive information in manual & display it as a text output on your screen.
+- <b>mkdir:</b>it is used to create new directory.an:it is used to retrive information in manual & display it as a text output on your screen.
