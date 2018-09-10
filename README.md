@@ -86,8 +86,8 @@
 
 <details>
 <summary><b>chmod</b></summary>
-- <b>chmod:</b>it is used to change the permission of file.</br>
-- <b>Examples</b></br>
+-<b>chmod:</b>it is used to change the permission of file.</br>
+  -<b>Examples</b></br>
    chmod 777 myfile.txt, it means you allow everyone to read,write & execute that file.</br>
    chmod 755 myfile.txt, it means you allow everyone to read and execute that file.
 <details>
