@@ -86,39 +86,39 @@
 
 <details>
 <summary><b>chmod</b></summary>
--<b>chmod:</b>it is used to change the permission of file.</br>
-  -<b>Examples</b></br>
+- <b>chmod:</b>it is used to change the permission of file.</br>
+- <b>Examples</b></br>
    chmod 777 myfile.txt, it means you allow everyone to read,write & execute that file.</br>
    chmod 755 myfile.txt, it means you allow everyone to read and execute that file.
-<details>
+</details>
 
 </details>
 <summary><b>ping</b></summary>
- - <b>ping:</b>it is used to check connectivity between two nodes.</br>
-   - <b>Examples</b></br>
+- <b>ping:</b>it is used to check connectivity between two nodes.</br>
+- <b>Examples</b></br>
    ping -c 10 172.30.222.151, it send 10 packets to 172.30.222.151.</br>
    ping -i 5 google.com, it will wait 5 second before sending packets to google.com
 </details>
 
 <details>
  <summary><b>tar</b></summary>
- -<b>tar:</b>it is used to create compressed archive files.</br>
-  - <b>Examples</b></br>
+- <b>tar:</b>it is used to create compressed archive files.</br>
+- <b>Examples</b></br>
    tar -xvzf myfile.tar.gz, it will extract tar files out of tar.gz archive.</br>
    tar -xvzf myfile.tar.gz -C /Desktop ,it will extract tar files to specific folder.
 </details>
 
 <details>
 <summary><b>top</b></summary>
- -<b>top:</b>it is used to allow users to monitor processes and system resource usage on linux.</br>
-  - <b>Examples</b></br>
+- <b>top:</b>it is used to allow users to monitor processes and system resource usage on linux.</br>
+- <b>Examples</b></br>
    top -u baqir ,it will show specific user 'baqir' processess & resource usages.</br>
    top -n 2 , top command refreshes untill you quit. running this command top will refresh only 2 times.
 </details>
 
 <details>
 <summary><b>ifconfig</b></summary>
- -<b>ifconfig:</b>it is used to initialize an interface, assign ip address to an interface & enable or disable interface on demand.</br>     -<b>Examples</b></br>
+- <b>ifconfig:</b>it is used to initialize an interface, assign ip address to an interface & enable or disable interface on demand.</br> - <b>Examples</b></br>
    ifconfig ens3, it will show information of ens3 interface.</br>
    ifconfig ens8 up, it will enable interface ens8. 
 </details>
@@ -126,39 +126,39 @@
 <details>
 <summary><b>grep</b></summary>
 - <b>grep:</b> it processes text line by line & prints any lines which match a specified pattern.</br>
- -  <b>Examples</b>
+- <b>Examples</b>
    grep "baqir" myfile.txt ,it will search baqir in file.</br>
     grep -n “linux*” myfile.txt ,it will display line number which contain linux.
 </details>
 
 <details>
 <summary><b>gcc</b></summary>
- -<b>gcc:</b>it used for compilation of C code.</br>
-   -<b>Examples</b></br>
+- <b>gcc:</b>it used for compilation of C code.</br>
+- <b>Examples</b></br>
   gcc file.c , it will executes the complete compilation process and outputs an executable with name a.out in same directory.</br>
   gcc file.c -o main ,it will executes the complete compilation process & produce an output file with name ‘main’ in same directory.
 </details>
 
 <details>
 -<summary><b>ps</b></summary>
-  -<b>ps:</b>it is used to provide information about the currently runnning processes including their PID's.</br>
-   -<b>Examples</b></br>
+- <b>ps:</b>it is used to provide information about the currently runnning processes including their PID's.</br>
+- <b>Examples</b></br>
    ps , it will display all processes running on current machine.</br>
    ps -fp 17796,18277 , it will make selection of mentioned PID's.
 </details>
 
 <details>
 <summary><b>pkill</b></summary>
- -<b>pkill:</b>it allows user to kill the program simply by specifying the name.</br>
-  - <b>Examples</b></br>
+- <b>pkill:</b>it allows user to kill the program simply by specifying the name.</br>
+- <b>Examples</b></br>
    pkill processname , it will kill the mentioned process.</br>
    pkill -f httpd ,  it will kill them all using -f option
 </details>
 
 <details>
 <summary><b>find</b></summary>
--<b>find:</b>it is used to find files & directories & perform subsequent operations on it.</br>
-  -<b>Examples</b></br>
+- <b>find:</b>it is used to find files & directories & perform subsequent operations on it.</br>
+- <b>Examples</b></br>
    find . -name myfile.txt ,it will find the directory in which file exists.</br>
     find / -type d -name task, it will find all the directories with the name task.
 </details>
@@ -166,103 +166,103 @@
 <details>
 <summary><b>history</b></summary>
 - <b>history:</b>it is used to show user recently used commands.</br>
- - <b>Examples</b></br>
+- <b>Examples</b></br>
    history 5 , it will display last 5 command which recently used.</br>
     history -c, it will clear all the commands whicha re recently used.
 </details>
 
 <details>
 <summary><b>echo</b></summary>
--<b>echo:</b>In bash & C shell echo command writes its arguments to standard output.<br>
- -<b>Examples</b></br>
+- <b>echo:</b>In bash & C shell echo command writes its arguments to standard output.<br>
+- <b>Examples</b></br>
    echo "my name is baqir" , it will print the string on screen.</br>
    echo nameserver 8.8.8.8 >> myfile.txt ,it will write nameserver 8.8.8.8 in file.
 </details>
 
 <details>
 <summary><b>export</b></summary>
- -<b>export:</b>it marks an environment variable to be exported with any newly forked child processes.it allows child process to inherit all marked variables.</br>
-  - <b>Examples</b></br>
+- <b>export:</b>it marks an environment variable to be exported with any newly forked child processes.it allows child process to inherit all marked variables.</br>
+- <b>Examples</b></br>
    export -p ,it will export all the variable of current shell.</br>
    export EDITOR=/usr/bin/vim , it will set vim as a text editor.
-  </details>
+</details>
 
 <details>
 <summary><b>passwd</b></summary>
- -<b>passwd:</b>it is used to change the user password.</br>
-  - <b>Examples</b></br>
+- <b>passwd:</b>it is used to change the user password.</br>
+- <b>Examples</b></br>
    sudo passwd baqir, it will change the password of user.</br>
    passwd -d baqir, it will delete the password of user.
 </details>
 
 <details>
-<summary><b>iptables/b></summary>
- -<b>iptables:</b>it is used to setup, maintain, & inspect the tables of ipv4 packet filter rules in linux kernal.</br>
-  - <b>Examples</b></br>
+<summary><b>iptables</b></summary>
+- <b>iptables:</b>it is used to setup, maintain, & inspect the tables of ipv4 packet filter rules in linux kernal.</br>
+- <b>Examples</b></br>
    iptables -F ,it will clean-up all the default rules, and existing rules</br>
    iptables -L ,it will list the default table rules.
 </details>
 
 <details>
 <summary><b>insmod</summary>
- -<b>insmod:</b>it is used to insert a module into the linux kernal.</br>
-  - <b>Examples</b></br>
+- <b>insmod:</b>it is used to insert a module into the linux kernal.</br>
+- <b>Examples</b></br>
    insmod dummy type="wpa" debug=1 , it will insert the module dummy to the kernal with two arguments type and debug.</br>
    insmod lp, it will insert the module lp to the kernal.
 </details>
 
 <details>
 <summary><b>lsmod</b></summary>
- -<b>lsmod:</b>it shows which loadable kernal modules are currently loaded.</br>
-  - <b>Examples</b></br>
+- <b>lsmod:</b>it shows which loadable kernal modules are currently loaded.</br>
+- <b>Examples</b></br>
    lsmod | grep ppdev ,it will display the information of ppdev module.</br>
    lsmod , it will display all the kernal modules of machine.
 </details>
 
 <details>
 <summary><b>rmmod</b></summary>
- -<b>rmmod:</b>it is used to unloads loadable modules from the running kernal.</br>
-  - <b>Examples</b></br>
+- <b>rmmod:</b>it is used to unloads loadable modules from the running kernal.</br>
+- <b>Examples</b></br>
    rmmod lp , it will remove kernal module lp.</br>
     rmmod ttm, it will remove kernal module ttm.
 </details>
 
 <details>
 <summary><b>ls</b></summary>
-  -<b>ls:</b>it is used list all the files of current working directory.</br>
-   -<b>Examples</b></br>
+- <b>ls:</b>it is used list all the files of current working directory.</br>
+- <b>Examples</b></br>
    ls -a, it will list all the files including hidden files of current directory.</br>
    ls -ls Desktop/, it will list the Desktop inforamtion.
 </details>
 <details>
 <summary><b>mv</b></summary> 
-  <b>mv:</b>it is used to move files from one directory to another.</br>
-   <b>Examples</b></br>
+- <b>mv:</b>it is used to move files from one directory to another.</br>
+- <b>Examples</b></br>
    mv myfile.txt /root/downloads, it will move file from current diectory to /root/downloads.</br>
     mv my*.txt /root/documents, it will move multiple files having name my from curent directoy to /root/documents.
 </details>
 
 <details>
 <summary><b>cp</b></summary>
- <b>cp:</b>it is used to copy files from one directory to another.
-   <b>Examples</b><br>
+- <b>cp:</b>it is used to copy files from one directory to another.
+- <b>Examples</b><br>
    cp myfile.txt /root/downloads/newfile.txt, it will copy file to /root/downloads with rename 'newfile.txt'.</br>
-   cp -n myfile.txt ~/root/Desktop/, it will not overwrite the existing file. 
+    cp -n myfile.txt ~/root/Desktop/, it will not overwrite the existing file. 
 </details>
 
 <details>
 <summary><b>rm</b></summary>
-  -<b>rm:</b>it is used to remove files & directories.</br>
-   -<b>Examples</b></br>
+- <b>rm:</b>it is used to remove files & directories.</br>
+- <b>Examples</b></br>
    rm myfile.txt, it will remove file.</br>
-    rm -rf task, it will remove task directory.
+   rm -rf task, it will remove task directory.
 </details>
 
 <details>
 <summary><b>mkdir</b></summary>
- -<b>mkdir:</b>it is used to create new directory.an:it is used to retrive information in manual & display it as a text output on your screen.</br>
-  - <b>Examples</b></br>
-  mkdir linux_dir, it will make new directory 'linux_dir' in current directory.</br>
+- <b>mkdir:</b>it is used to create new directory.an:it is used to retrive information in manual & display it as a text output on your screen.</br>
+- <b>Examples</b></br>
+   mkdir linux_dir, it will make new directory 'linux_dir' in current directory.</br>
    mkdir dir1 dir2 dir3, it will create multiple directories in current directory.
 </details>
 
