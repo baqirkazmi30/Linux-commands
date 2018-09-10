@@ -4,10 +4,10 @@
 <details>
 <summary><b>Tcpdump</b></summary>
 - <b>tcpdump:</b> it is used to capture tcp/ip packets that transfered or received over a network on a specific interface.
-- <b>Examples</b> 
-  * tcpdump -c 5 -i ens3, capture 5 packets on interface ens3
-  * tcpdump -D, Display list of available interfaces on system.
-  * tcpdump -i ens3 tcp, only capture the tcp packets on interface ens3.
+- <b>Examples</b> </br>
+  - tcpdump -c 5 -i ens3, capture 5 packets on interface ens3 </br>
+  - tcpdump -D, Display list of available interfaces on system. </br>
+  - tcpdump -i ens3 tcp, only capture the tcp packets on interface ens3. </br>
 
 </details>
 
@@ -129,15 +129,15 @@
 - <b>grep:</b> it processes text line by line & prints any lines which match a specified pattern.
 - <b>Examples</b>
   * grep "baqir" myfile.txt ,it will search baqir in file.
-  * grep -n “linux*” myfile.txt ,it will display line number which contain linux.
+  *grep -n “linux*” myfile.txt ,it will display line number which contain linux.
 </details>
 
 <details>
 <summary><b>gcc</b></summary>
 - <b>gcc:</b>it used for compilation of C code.
 - <b>Examples</b>
-  * gcc file.c , it will executes the complete compilation process and outputs an executable with name a.out in same directory.
-  * gcc file.c -o main ,it will executes the complete compilation process & produce an output file with name ‘main’ in same directory.
+ * gcc file.c , it will executes the complete compilation process and outputs an executable with name a.out in same directory.
+ * gcc file.c -o main ,it will executes the complete compilation process & produce an output file with name ‘main’ in same directory.
 </details>
 
 <details>
@@ -240,8 +240,7 @@
 - <b>mv:</b>it is used to move files from one directory to another.
 - <b>Examples</b>
   * mv myfile.txt /root/downloads, it will move file from current diectory to /root/downloads.
-  * mv my*.txt /root/documents, it will move multiple files having name 'my' from curent directoy to /root/documents.
-
+  *mv my*.txt /root/documents, it will move multiple files having name my from curent directoy to /root/documents.
 </details>
 
 <details>
