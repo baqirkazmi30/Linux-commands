@@ -92,7 +92,7 @@
    chmod 755 myfile.txt, it means you allow everyone to read and execute that file.
 <details>
 
-<details>
+</details>
 <summary><b>ping</b></summary>
  - <b>ping:</b>it is used to check connectivity between two nodes.</br>
    - <b>Examples</b></br>
